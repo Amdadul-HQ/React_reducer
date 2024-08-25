@@ -20,6 +20,7 @@ const reducer = (currentState, action) =>{
 }
 function App() {
   const [user,dispatch] = useReducer(reducer,initialState)
+  console.log(user);
   return (
     <>
       <form>
