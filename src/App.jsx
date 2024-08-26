@@ -39,7 +39,7 @@ function App() {
           value={user.email} 
           onChange={(e) => dispatch({type: "UPDATE_EMAIL", payload: e.target.value})} 
         />
-        <button type="submit">Submit</button>
+        <button className="px-3 py-2" type="submit">Submit</button>
       </form>
     </>
   )
