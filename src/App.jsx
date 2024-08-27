@@ -29,7 +29,11 @@ function App() {
           value={user.name} 
           onChange={(e) => dispatch({type: "UPDATE_NAME", payload: e.target.value})} 
         />
-       
+        <input 
+          type="number" 
+          value={user.age} 
+          onChange={(e) => dispatch({type: "UPDATE_AGE", payload: e.target.value})} 
+        />
         <input 
           type="email" 
           value={user.email} 
