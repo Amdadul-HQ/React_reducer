@@ -35,7 +35,7 @@ function App() {
           onChange={(e) => dispatch({type: "UPDATE_AGE", payload: e.target.value})} 
         />
 
-<input 
+          <input
           type="email" 
           value={user.email} 
           onChange={(e) => dispatch({type: "UPDATE_EMAIL", payload: e.target.value})} 
