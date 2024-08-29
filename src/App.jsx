@@ -24,18 +24,7 @@ function App() {
   return (
     <>
       <form>
-
-      <input 
-          type="number" 
-          value={user.age} 
-          onChange={(e) => dispatch({type: "UPDATE_AGE", payload: e.target.value})} 
-        />
-
-          <input
-          type="email" 
-          value={user.email} 
-          onChange={(e) => dispatch({type: "UPDATE_EMAIL", payload: e.target.value})} 
-        />
+        
       <input 
           type="text" 
           value={user.name} 
